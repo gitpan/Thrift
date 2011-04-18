@@ -1,0 +1,51 @@
+{
+   "abstract" : "Perl module of Thrift 0.5.0",
+   "author" : [
+      "Developers Mailing List <thrift-dev@incubator.apache.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110930",
+   "license" : [
+      "apache_2_0"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Thrift",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31",
+            "Module::Build" : "0.3601"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Bit::Vector" : 0,
+            "Encode" : 0,
+            "HTTP::Request" : 0,
+            "IO::Select" : 0,
+            "IO::Socket::INET" : 0,
+            "IO::String" : 0,
+            "LWP::UserAgent" : 0,
+            "POSIX" : 0,
+            "constant" : 0,
+            "utf8" : 0
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.5.0"
+}
+
