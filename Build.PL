@@ -14,12 +14,12 @@ my %module_build_args = (
     'ExtUtils::MakeMaker' => '6.31',
     'Module::Build' => '0.3601'
   },
-  'dist_abstract' => 'Perl module of Thrift 0.5.0',
+  'dist_abstract' => 'Perl module of Thrift',
   'dist_author' => [
     'Developers Mailing List <thrift-dev@incubator.apache.org>'
   ],
   'dist_name' => 'Thrift',
-  'dist_version' => '0.5.0',
+  'dist_version' => '0.6.0_01',
   'license' => 'apache',
   'module_name' => 'Thrift',
   'recommends' => {},

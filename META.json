@@ -1,5 +1,5 @@
 {
-   "abstract" : "Perl module of Thrift 0.5.0",
+   "abstract" : "Perl module of Thrift",
    "author" : [
       "Developers Mailing List <thrift-dev@incubator.apache.org>"
    ],
@@ -45,7 +45,7 @@
          }
       }
    },
-   "release_status" : "stable",
-   "version" : "0.5.0"
+   "release_status" : "testing",
+   "version" : "0.6.0_01"
 }
 

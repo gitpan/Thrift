@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.31;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Perl module of Thrift 0.5.0',
+  'ABSTRACT' => 'Perl module of Thrift',
   'AUTHOR' => 'Developers Mailing List <thrift-dev@incubator.apache.org>',
   'BUILD_REQUIRES' => {
     'Module::Build' => '0.3601',
@@ -35,7 +35,7 @@ my %WriteMakefileArgs = (
     'constant' => '0',
     'utf8' => '0'
   },
-  'VERSION' => '0.5.0',
+  'VERSION' => '0.6.0_01',
   'test' => {
     'TESTS' => 't/*.t'
   }

@@ -1,5 +1,5 @@
 ---
-abstract: 'Perl module of Thrift 0.5.0'
+abstract: 'Perl module of Thrift'
 author:
   - 'Developers Mailing List <thrift-dev@incubator.apache.org>'
 build_requires:
@@ -26,4 +26,4 @@ requires:
   POSIX: 0
   constant: 0
   utf8: 0
-version: 0.5.0
+version: 0.6.0_01

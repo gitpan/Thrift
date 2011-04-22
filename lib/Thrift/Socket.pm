@@ -27,8 +27,10 @@ use Thrift::Transport;
 use IO::Socket::INET;
 use IO::Select;
 
-package # hide
-    Thrift::Socket;
+package Thrift::Socket;
+BEGIN {
+  $Thrift::Socket::VERSION = '0.6.0_01';
+}
 
 use base('Thrift::Transport');
 
@@ -273,8 +275,10 @@ sub flush
 #
 # Build a ServerSocket from the ServerTransport base class
 #
-package # hide
-    Thrift::ServerSocket;
+package  Thrift::ServerSocket;
+BEGIN {
+  $Thrift::ServerSocket::VERSION = '0.6.0_01';
+}
 
 use base qw( Thrift::Socket Thrift::ServerTransport );
 

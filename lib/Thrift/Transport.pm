@@ -26,8 +26,10 @@ use Thrift;
 #
 # Transport exceptions
 #
-package # hide
-    TTransportException;
+package TTransportException;
+BEGIN {
+  $TTransportException::VERSION = '0.6.0_01';
+}
 use base('Thrift::TException');
 
 use constant UNKNOWN      => 0;
@@ -43,8 +45,10 @@ sub new{
     return bless($self,$classname);
 }
 
-package # hide
-    Thrift::Transport;
+package Thrift::Transport;
+BEGIN {
+  $Thrift::Transport::VERSION = '0.6.0_01';
+}
 
 #
 # Whether this transport is open.
@@ -131,8 +135,10 @@ sub flush {}
 #
 # TransportFactory creates transport objects from transports
 #
-package # hide
-    Thrift::TransportFactory;
+package Thrift::TransportFactory;
+BEGIN {
+  $Thrift::TransportFactory::VERSION = '0.6.0_01';
+}
 
 sub new {
     my $classname = shift;
@@ -158,8 +164,10 @@ sub getTransport
 #
 #  ServerTransport base class module
 #
-package # hide
-    Thrift::ServerTransport;
+package Thrift::ServerTransport;
+BEGIN {
+  $Thrift::ServerTransport::VERSION = '0.6.0_01';
+}
 
 sub listen
 {

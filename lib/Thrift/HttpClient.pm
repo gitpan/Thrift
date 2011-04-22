@@ -28,8 +28,10 @@ use HTTP::Request;
 use LWP::UserAgent;
 use IO::String;
 
-package # hide
-    Thrift::HttpClient;
+package Thrift::HttpClient;
+BEGIN {
+  $Thrift::HttpClient::VERSION = '0.6.0_01';
+}
 
 use base('Thrift::Transport');
 

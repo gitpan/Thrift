@@ -29,8 +29,10 @@ use Thrift::Transport;
 #
 # @package thrift.transport
 #
-package # hide
-    Thrift::FramedTransport;
+package Thrift::FramedTransport;
+BEGIN {
+  $Thrift::FramedTransport::VERSION = '0.6.0_01';
+}
 
 use base('Thrift::Transport');
 

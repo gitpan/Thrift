@@ -24,8 +24,10 @@ use warnings;
 use Thrift;
 use Thrift::Transport;
 
-package # hide
-    Thrift::MemoryBuffer;
+package Thrift::MemoryBuffer;
+BEGIN {
+  $Thrift::MemoryBuffer::VERSION = '0.6.0_01';
+}
 use base('Thrift::Transport');
 
 sub new

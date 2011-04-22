@@ -24,8 +24,10 @@ use warnings;
 use Thrift;
 use Thrift::Transport;
 
-package # hide
-    Thrift::BufferedTransport;
+package Thrift::BufferedTransport;
+BEGIN {
+  $Thrift::BufferedTransport::VERSION = '0.6.0_01';
+}
 use base('Thrift::Transport');
 
 sub new
@@ -110,8 +112,10 @@ sub flush
 #
 # BufferedTransport factory creates buffered transport objects from transports
 #
-package # hide
-    Thrift::BufferedTransportFactory;
+package Thrift::BufferedTransportFactory;
+BEGIN {
+  $Thrift::BufferedTransportFactory::VERSION = '0.6.0_01';
+}
 
 sub new {
     my $classname = shift;

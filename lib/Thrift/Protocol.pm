@@ -26,8 +26,10 @@ use Thrift;
 #
 # Protocol exceptions
 #
-package # hide
-    TProtocolException;
+package TProtocolException;
+BEGIN {
+  $TProtocolException::VERSION = '0.6.0_01';
+}
 use base('Thrift::TException');
 
 use constant UNKNOWN       => 0;
@@ -47,8 +49,10 @@ sub new {
 #
 # Protocol base class module.
 #
-package # hide
-    Thrift::Protocol;
+package Thrift::Protocol;
+BEGIN {
+  $Thrift::Protocol::VERSION = '0.6.0_01';
+}
 
 sub new {
     my $classname = shift;
@@ -518,8 +522,10 @@ sub skipBinary
 #
 # Protocol factory creates protocol objects from transports
 #
-package # hide
-    TProtocolFactory;
+package TProtocolFactory;
+BEGIN {
+  $TProtocolFactory::VERSION = '0.6.0_01';
+}
 
 
 sub new {
