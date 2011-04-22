@@ -26,4 +26,4 @@ requires:
   POSIX: 0
   constant: 0
   utf8: 0
-version: 0.6.0_01
+version: 0.6.0_02
