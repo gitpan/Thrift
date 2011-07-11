@@ -4,7 +4,7 @@
       "Developers Mailing List <thrift-dev@incubator.apache.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "Dist::Zilla version 4.200009, CPAN::Meta::Converter version 2.110930",
    "license" : [
       "apache_2_0"
    ],
@@ -21,7 +21,7 @@
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.31",
+            "ExtUtils::MakeMaker" : "6.30",
             "Module::Build" : "0.3601"
          }
       },
@@ -36,6 +36,7 @@
             "LWP::UserAgent" : 0,
             "POSIX" : 0,
             "constant" : 0,
+            "perl" : "v5.6.0",
             "utf8" : 0
          }
       },
@@ -46,6 +47,6 @@
       }
    },
    "release_status" : "testing",
-   "version" : "0.6.0_02"
+   "version" : "0.6.1_01"
 }
 

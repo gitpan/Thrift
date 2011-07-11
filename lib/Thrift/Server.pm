@@ -17,7 +17,7 @@
 # under the License.
 #
 
-#require 5.6.0;
+require 5.6.0;
 use strict;
 use warnings;
 
@@ -30,7 +30,7 @@ use Thrift::BinaryProtocol;
 #
 package Thrift::Server;
 BEGIN {
-  $Thrift::Server::VERSION = '0.6.0_02';
+  $Thrift::Server::VERSION = '0.6.1_01';
 }
 
 # 3 possible constructors:
@@ -134,7 +134,7 @@ sub _handleException
 #
 package Thrift::SimpleServer;
 BEGIN {
-  $Thrift::SimpleServer::VERSION = '0.6.0_02';
+  $Thrift::SimpleServer::VERSION = '0.6.1_01';
 }
 use base qw( Thrift::Server );
 
@@ -180,7 +180,7 @@ sub serve
 #
 package Thrift::ForkingServer;
 BEGIN {
-  $Thrift::ForkingServer::VERSION = '0.6.0_02';
+  $Thrift::ForkingServer::VERSION = '0.6.1_01';
 }
 use base qw( Thrift::Server );
 

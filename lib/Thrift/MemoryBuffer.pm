@@ -17,7 +17,7 @@
 # under the License.
 #
 
-#require 5.6.0;
+require 5.6.0;
 use strict;
 use warnings;
 
@@ -26,7 +26,7 @@ use Thrift::Transport;
 
 package Thrift::MemoryBuffer;
 BEGIN {
-  $Thrift::MemoryBuffer::VERSION = '0.6.0_02';
+  $Thrift::MemoryBuffer::VERSION = '0.6.1_01';
 }
 use base('Thrift::Transport');
 

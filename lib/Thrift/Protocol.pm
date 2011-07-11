@@ -17,7 +17,7 @@
 # under the License.
 #
 
-#require 5.6.0;
+require 5.6.0;
 use strict;
 use warnings;
 
@@ -28,7 +28,7 @@ use Thrift;
 #
 package TProtocolException;
 BEGIN {
-  $TProtocolException::VERSION = '0.6.0_02';
+  $TProtocolException::VERSION = '0.6.1_01';
 }
 use base('Thrift::TException');
 
@@ -51,7 +51,7 @@ sub new {
 #
 package Thrift::Protocol;
 BEGIN {
-  $Thrift::Protocol::VERSION = '0.6.0_02';
+  $Thrift::Protocol::VERSION = '0.6.1_01';
 }
 
 sub new {
@@ -524,7 +524,7 @@ sub skipBinary
 #
 package TProtocolFactory;
 BEGIN {
-  $TProtocolFactory::VERSION = '0.6.0_02';
+  $TProtocolFactory::VERSION = '0.6.1_01';
 }
 
 

@@ -17,7 +17,7 @@
 # under the License.
 #
 
-#require 5.6.0;
+require 5.6.0;
 use strict;
 use warnings;
 
@@ -26,7 +26,7 @@ use Thrift::Transport;
 
 package Thrift::BufferedTransport;
 BEGIN {
-  $Thrift::BufferedTransport::VERSION = '0.6.0_02';
+  $Thrift::BufferedTransport::VERSION = '0.6.1_01';
 }
 use base('Thrift::Transport');
 
@@ -114,7 +114,7 @@ sub flush
 #
 package Thrift::BufferedTransportFactory;
 BEGIN {
-  $Thrift::BufferedTransportFactory::VERSION = '0.6.0_02';
+  $Thrift::BufferedTransportFactory::VERSION = '0.6.1_01';
 }
 
 sub new {

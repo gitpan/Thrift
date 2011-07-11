@@ -2,9 +2,9 @@
 use strict;
 use warnings;
 
+use 5.006000;
 
-
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
@@ -16,7 +16,7 @@ my %WriteMakefileArgs = (
     'Test::More' => '0'
   },
   'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31',
+    'ExtUtils::MakeMaker' => '6.30',
     'Module::Build' => '0.3601'
   },
   'DISTNAME' => 'Thrift',
@@ -35,7 +35,7 @@ my %WriteMakefileArgs = (
     'constant' => '0',
     'utf8' => '0'
   },
-  'VERSION' => '0.6.0_02',
+  'VERSION' => '0.6.1_01',
   'test' => {
     'TESTS' => 't/*.t'
   }

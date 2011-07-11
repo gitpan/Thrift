@@ -17,7 +17,7 @@
 # under the License.
 #
 
-#require 5.6.0;
+require 5.6.0;
 use strict;
 use warnings;
 
@@ -30,7 +30,7 @@ use IO::String;
 
 package Thrift::HttpClient;
 BEGIN {
-  $Thrift::HttpClient::VERSION = '0.6.0_02';
+  $Thrift::HttpClient::VERSION = '0.6.1_01';
 }
 
 use base('Thrift::Transport');

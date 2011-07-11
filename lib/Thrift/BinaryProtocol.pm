@@ -17,7 +17,7 @@
 # under the License.
 #
 
-#require 5.6.0;
+require 5.6.0;
 
 use strict;
 use warnings;
@@ -35,7 +35,7 @@ use Bit::Vector;
 #
 package Thrift::BinaryProtocol;
 BEGIN {
-  $Thrift::BinaryProtocol::VERSION = '0.6.0_02';
+  $Thrift::BinaryProtocol::VERSION = '0.6.1_01';
 }
 use base('Thrift::Protocol');
 
@@ -482,7 +482,7 @@ sub readStringBody
 #
 package Thrift::BinaryProtocolFactory;
 BEGIN {
-  $Thrift::BinaryProtocolFactory::VERSION = '0.6.0_02';
+  $Thrift::BinaryProtocolFactory::VERSION = '0.6.1_01';
 }
 use base('TProtocolFactory');
 

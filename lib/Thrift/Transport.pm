@@ -17,7 +17,7 @@
 # under the License.
 #
 
-#require 5.6.0;
+require 5.6.0;
 use strict;
 use warnings;
 
@@ -28,7 +28,7 @@ use Thrift;
 #
 package TTransportException;
 BEGIN {
-  $TTransportException::VERSION = '0.6.0_02';
+  $TTransportException::VERSION = '0.6.1_01';
 }
 use base('Thrift::TException');
 
@@ -47,7 +47,7 @@ sub new{
 
 package Thrift::Transport;
 BEGIN {
-  $Thrift::Transport::VERSION = '0.6.0_02';
+  $Thrift::Transport::VERSION = '0.6.1_01';
 }
 
 #
@@ -137,7 +137,7 @@ sub flush {}
 #
 package Thrift::TransportFactory;
 BEGIN {
-  $Thrift::TransportFactory::VERSION = '0.6.0_02';
+  $Thrift::TransportFactory::VERSION = '0.6.1_01';
 }
 
 sub new {
@@ -166,7 +166,7 @@ sub getTransport
 #
 package Thrift::ServerTransport;
 BEGIN {
-  $Thrift::ServerTransport::VERSION = '0.6.0_02';
+  $Thrift::ServerTransport::VERSION = '0.6.1_01';
 }
 
 sub listen

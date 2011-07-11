@@ -31,7 +31,7 @@ use Thrift::Transport;
 #
 package Thrift::FramedTransport;
 BEGIN {
-  $Thrift::FramedTransport::VERSION = '0.6.0_02';
+  $Thrift::FramedTransport::VERSION = '0.6.1_01';
 }
 
 use base('Thrift::Transport');
