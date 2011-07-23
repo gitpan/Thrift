@@ -28,7 +28,7 @@ use Thrift;
 #
 package TTransportException;
 BEGIN {
-  $TTransportException::VERSION = '0.6.1_01';
+  $TTransportException::VERSION = '0.6.1';
 }
 use base('Thrift::TException');
 
@@ -47,7 +47,7 @@ sub new{
 
 package Thrift::Transport;
 BEGIN {
-  $Thrift::Transport::VERSION = '0.6.1_01';
+  $Thrift::Transport::VERSION = '0.6.1';
 }
 
 #
@@ -137,7 +137,7 @@ sub flush {}
 #
 package Thrift::TransportFactory;
 BEGIN {
-  $Thrift::TransportFactory::VERSION = '0.6.1_01';
+  $Thrift::TransportFactory::VERSION = '0.6.1';
 }
 
 sub new {
@@ -166,7 +166,7 @@ sub getTransport
 #
 package Thrift::ServerTransport;
 BEGIN {
-  $Thrift::ServerTransport::VERSION = '0.6.1_01';
+  $Thrift::ServerTransport::VERSION = '0.6.1';
 }
 
 sub listen

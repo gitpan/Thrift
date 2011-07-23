@@ -19,7 +19,7 @@ my %module_build_args = (
     'Developers Mailing List <thrift-dev@incubator.apache.org>'
   ],
   'dist_name' => 'Thrift',
-  'dist_version' => '0.6.1_01',
+  'dist_version' => '0.6.1',
   'license' => 'apache',
   'module_name' => 'Thrift',
   'recommends' => {},
