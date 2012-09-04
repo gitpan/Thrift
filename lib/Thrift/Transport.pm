@@ -27,8 +27,8 @@ use Thrift;
 # Transport exceptions
 #
 package TTransportException;
-BEGIN {
-  $TTransportException::VERSION = '0.6.1';
+{
+  $TTransportException::VERSION = '0.8.0';
 }
 use base('Thrift::TException');
 
@@ -46,8 +46,8 @@ sub new{
 }
 
 package Thrift::Transport;
-BEGIN {
-  $Thrift::Transport::VERSION = '0.6.1';
+{
+  $Thrift::Transport::VERSION = '0.8.0';
 }
 
 #
@@ -136,8 +136,8 @@ sub flush {}
 # TransportFactory creates transport objects from transports
 #
 package Thrift::TransportFactory;
-BEGIN {
-  $Thrift::TransportFactory::VERSION = '0.6.1';
+{
+  $Thrift::TransportFactory::VERSION = '0.8.0';
 }
 
 sub new {
@@ -165,8 +165,8 @@ sub getTransport
 #  ServerTransport base class module
 #
 package Thrift::ServerTransport;
-BEGIN {
-  $Thrift::ServerTransport::VERSION = '0.6.1';
+{
+  $Thrift::ServerTransport::VERSION = '0.8.0';
 }
 
 sub listen

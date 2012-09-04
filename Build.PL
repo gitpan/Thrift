@@ -6,38 +6,41 @@ use Module::Build 0.3601;
 
 
 my %module_build_args = (
-  'build_requires' => {
-    'Module::Build' => '0.3601',
-    'Test::More' => '0'
+  "build_requires" => {
+    "Module::Build" => "0.3601",
+    "Test::More" => 0
   },
-  'configure_requires' => {
-    'ExtUtils::MakeMaker' => '6.30',
-    'Module::Build' => '0.3601'
+  "configure_requires" => {
+    "ExtUtils::MakeMaker" => "6.30",
+    "Module::Build" => "0.3601"
   },
-  'dist_abstract' => 'Perl module of Thrift',
-  'dist_author' => [
-    'Developers Mailing List <thrift-dev@incubator.apache.org>'
+  "dist_abstract" => "Perl module of Thrift",
+  "dist_author" => [
+    "Developers Mailing List <thrift-dev\@incubator.apache.org>"
   ],
-  'dist_name' => 'Thrift',
-  'dist_version' => '0.6.1',
-  'license' => 'apache',
-  'module_name' => 'Thrift',
-  'recommends' => {},
-  'recursive_test_files' => 1,
-  'requires' => {
-    'Bit::Vector' => '0',
-    'Encode' => '0',
-    'HTTP::Request' => '0',
-    'IO::Select' => '0',
-    'IO::Socket::INET' => '0',
-    'IO::String' => '0',
-    'LWP::UserAgent' => '0',
-    'POSIX' => '0',
-    'constant' => '0',
-    'perl' => '5.6.0',
-    'utf8' => '0'
+  "dist_name" => "Thrift",
+  "dist_version" => "0.8.0",
+  "license" => "apache",
+  "module_name" => "Thrift",
+  "recommends" => {},
+  "recursive_test_files" => 1,
+  "requires" => {
+    "Bit::Vector" => 0,
+    "Encode" => 0,
+    "HTTP::Request" => 0,
+    "IO::Select" => 0,
+    "IO::Socket::INET" => 0,
+    "IO::String" => 0,
+    "LWP::UserAgent" => 0,
+    "POSIX" => 0,
+    "base" => 0,
+    "constant" => 0,
+    "perl" => "v5.6.0",
+    "strict" => 0,
+    "utf8" => 0,
+    "warnings" => 0
   },
-  'script_files' => []
+  "script_files" => []
 );
 
 

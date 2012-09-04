@@ -4,7 +4,7 @@
       "Developers Mailing List <thrift-dev@incubator.apache.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200012, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "Dist::Zilla version 4.300021, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "apache_2_0"
    ],
@@ -27,26 +27,29 @@
       },
       "runtime" : {
          "requires" : {
-            "Bit::Vector" : 0,
-            "Encode" : 0,
-            "HTTP::Request" : 0,
-            "IO::Select" : 0,
-            "IO::Socket::INET" : 0,
-            "IO::String" : 0,
-            "LWP::UserAgent" : 0,
-            "POSIX" : 0,
-            "constant" : 0,
+            "Bit::Vector" : "0",
+            "Encode" : "0",
+            "HTTP::Request" : "0",
+            "IO::Select" : "0",
+            "IO::Socket::INET" : "0",
+            "IO::String" : "0",
+            "LWP::UserAgent" : "0",
+            "POSIX" : "0",
+            "base" : "0",
+            "constant" : "0",
             "perl" : "v5.6.0",
-            "utf8" : 0
+            "strict" : "0",
+            "utf8" : "0",
+            "warnings" : "0"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : 0
+            "Test::More" : "0"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.6.1"
+   "version" : "0.8.0"
 }
 

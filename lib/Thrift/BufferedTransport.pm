@@ -25,8 +25,8 @@ use Thrift;
 use Thrift::Transport;
 
 package Thrift::BufferedTransport;
-BEGIN {
-  $Thrift::BufferedTransport::VERSION = '0.6.1';
+{
+  $Thrift::BufferedTransport::VERSION = '0.8.0';
 }
 use base('Thrift::Transport');
 
@@ -113,8 +113,8 @@ sub flush
 # BufferedTransport factory creates buffered transport objects from transports
 #
 package Thrift::BufferedTransportFactory;
-BEGIN {
-  $Thrift::BufferedTransportFactory::VERSION = '0.6.1';
+{
+  $Thrift::BufferedTransportFactory::VERSION = '0.8.0';
 }
 
 sub new {

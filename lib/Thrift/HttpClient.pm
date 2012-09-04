@@ -29,8 +29,8 @@ use LWP::UserAgent;
 use IO::String;
 
 package Thrift::HttpClient;
-BEGIN {
-  $Thrift::HttpClient::VERSION = '0.6.1';
+{
+  $Thrift::HttpClient::VERSION = '0.8.0';
 }
 
 use base('Thrift::Transport');
