@@ -35,7 +35,7 @@ use Bit::Vector;
 #
 package Thrift::BinaryProtocol;
 {
-  $Thrift::BinaryProtocol::VERSION = '0.8.0';
+  $Thrift::BinaryProtocol::VERSION = '0.9.0';
 }
 use base('Thrift::Protocol');
 
@@ -495,7 +495,7 @@ sub readStringBody
 #
 package Thrift::BinaryProtocolFactory;
 {
-  $Thrift::BinaryProtocolFactory::VERSION = '0.8.0';
+  $Thrift::BinaryProtocolFactory::VERSION = '0.9.0';
 }
 use base('TProtocolFactory');
 

@@ -29,7 +29,7 @@ use IO::Select;
 
 package Thrift::Socket;
 {
-  $Thrift::Socket::VERSION = '0.8.0';
+  $Thrift::Socket::VERSION = '0.9.0';
 }
 
 use base('Thrift::Transport');
@@ -277,7 +277,7 @@ sub flush
 #
 package  Thrift::ServerSocket;
 {
-  $Thrift::ServerSocket::VERSION = '0.8.0';
+  $Thrift::ServerSocket::VERSION = '0.9.0';
 }
 
 use base qw( Thrift::Socket Thrift::ServerTransport );

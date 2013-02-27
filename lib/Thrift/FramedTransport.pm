@@ -31,7 +31,7 @@ use Thrift::Transport;
 #
 package Thrift::FramedTransport;
 {
-  $Thrift::FramedTransport::VERSION = '0.8.0';
+  $Thrift::FramedTransport::VERSION = '0.9.0';
 }
 
 use base('Thrift::Transport');
@@ -71,7 +71,9 @@ sub close
 {
     my $self = shift;
 
-    $self->{transport}->close();
+    if (defined $self->{transport}) {
+      $self->{transport}->close();
+    }
 }
 
 #

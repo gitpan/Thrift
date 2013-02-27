@@ -26,7 +26,7 @@ use Thrift::Transport;
 
 package Thrift::BufferedTransport;
 {
-  $Thrift::BufferedTransport::VERSION = '0.8.0';
+  $Thrift::BufferedTransport::VERSION = '0.9.0';
 }
 use base('Thrift::Transport');
 
@@ -114,7 +114,7 @@ sub flush
 #
 package Thrift::BufferedTransportFactory;
 {
-  $Thrift::BufferedTransportFactory::VERSION = '0.8.0';
+  $Thrift::BufferedTransportFactory::VERSION = '0.9.0';
 }
 
 sub new {

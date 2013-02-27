@@ -30,7 +30,7 @@ use Thrift::BinaryProtocol;
 #
 package Thrift::Server;
 {
-  $Thrift::Server::VERSION = '0.8.0';
+  $Thrift::Server::VERSION = '0.9.0';
 }
 
 # 3 possible constructors:
@@ -134,7 +134,7 @@ sub _handleException
 #
 package Thrift::SimpleServer;
 {
-  $Thrift::SimpleServer::VERSION = '0.8.0';
+  $Thrift::SimpleServer::VERSION = '0.9.0';
 }
 use base qw( Thrift::Server );
 
@@ -180,7 +180,7 @@ sub serve
 #
 package Thrift::ForkingServer;
 {
-  $Thrift::ForkingServer::VERSION = '0.8.0';
+  $Thrift::ForkingServer::VERSION = '0.9.0';
 }
 use base qw( Thrift::Server );
 

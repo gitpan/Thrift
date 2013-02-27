@@ -30,7 +30,7 @@ use IO::String;
 
 package Thrift::HttpClient;
 {
-  $Thrift::HttpClient::VERSION = '0.8.0';
+  $Thrift::HttpClient::VERSION = '0.9.0';
 }
 
 use base('Thrift::Transport');

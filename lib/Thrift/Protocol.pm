@@ -28,7 +28,7 @@ use Thrift;
 #
 package TProtocolException;
 {
-  $TProtocolException::VERSION = '0.8.0';
+  $TProtocolException::VERSION = '0.9.0';
 }
 use base('Thrift::TException');
 
@@ -51,7 +51,7 @@ sub new {
 #
 package Thrift::Protocol;
 {
-  $Thrift::Protocol::VERSION = '0.8.0';
+  $Thrift::Protocol::VERSION = '0.9.0';
 }
 
 sub new {
@@ -524,7 +524,7 @@ sub skipBinary
 #
 package TProtocolFactory;
 {
-  $TProtocolFactory::VERSION = '0.8.0';
+  $TProtocolFactory::VERSION = '0.9.0';
 }
 
 
